@@ -32,4 +32,25 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get bangla => 'বাংলা';
+
+  @override
+  String get retry => 'আবার চেষ্টা করুন';
+
+  @override
+  String get cancel => 'বাতিল';
+
+  @override
+  String get confirm => 'নিশ্চিত করুন';
+
+  @override
+  String get showPassword => 'পাসওয়ার্ড দেখান';
+
+  @override
+  String get hidePassword => 'পাসওয়ার্ড লুকান';
+
+  @override
+  String get available => 'পাওয়া যাচ্ছে';
+
+  @override
+  String get outOfStock => 'স্টক শেষ';
 }

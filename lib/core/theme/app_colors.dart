@@ -10,7 +10,7 @@ class AppColors {
   static const Color secondary = Color(0xFFF9A825); // harvest amber
   static const Color onSecondary = Color(0xFF1B1B1B);
 
-  // Order status colors (used by StatusBadge later)
+  // Order status colors (used by StatusBadge)
   static const Color pending = Color(0xFFF9A825);
   static const Color accepted = Color(0xFF1E88E5);
   static const Color preparing = Color(0xFF8E24AA);

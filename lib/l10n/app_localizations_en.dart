@@ -32,4 +32,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get bangla => 'বাংলা';
+
+  @override
+  String get retry => 'Retry';
+
+  @override
+  String get cancel => 'Cancel';
+
+  @override
+  String get confirm => 'Confirm';
+
+  @override
+  String get showPassword => 'Show password';
+
+  @override
+  String get hidePassword => 'Hide password';
+
+  @override
+  String get available => 'Available';
+
+  @override
+  String get outOfStock => 'Out of stock';
 }

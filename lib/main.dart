@@ -4,7 +4,7 @@ import 'package:provider/provider.dart';
 import 'core/theme/app_theme.dart';
 import 'l10n/app_localizations.dart';
 import 'providers/settings_provider.dart';
-import 'screens/common/settings_screen.dart';
+import 'screens/common/widget_gallery_screen.dart';
 
 void main() {
   runApp(
@@ -32,7 +32,7 @@ class AgroLinkApp extends StatelessWidget {
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       // Temporary home. Replaced by SplashScreen in Step 6.
-      home: const SettingsScreen(),
+      home: const WidgetGalleryScreen(),      
     );
   }
 }

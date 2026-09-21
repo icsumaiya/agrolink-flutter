@@ -7,5 +7,12 @@
   "theme": "Theme",
   "darkMode": "Dark mode",
   "english": "English",
-  "bangla": "বাংলা"
+  "bangla": "বাংলা",
+  "retry": "Retry",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "available": "Available",
+  "outOfStock": "Out of stock"
 }

@@ -7,5 +7,12 @@
   "theme": "থিম",
   "darkMode": "ডার্ক মোড",
   "english": "English",
-  "bangla": "বাংলা"
+  "bangla": "বাংলা",
+  "retry": "আবার চেষ্টা করুন",
+  "cancel": "বাতিল",
+  "confirm": "নিশ্চিত করুন",
+  "showPassword": "পাসওয়ার্ড দেখান",
+  "hidePassword": "পাসওয়ার্ড লুকান",
+  "available": "পাওয়া যাচ্ছে",
+  "outOfStock": "স্টক শেষ"
 }
