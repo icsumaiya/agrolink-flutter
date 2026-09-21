@@ -1,4 +1,11 @@
 {
   "@@locale": "en",
-  "appName": "AgroLink"
+  "appName": "AgroLink",
+  "tagline": "Connecting farmers and buyers",
+  "settings": "Settings",
+  "language": "Language",
+  "theme": "Theme",
+  "darkMode": "Dark mode",
+  "english": "English",
+  "bangla": "বাংলা"
 }

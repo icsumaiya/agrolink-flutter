@@ -1,4 +1,11 @@
 {
   "@@locale": "bn",
-  "appName": "\u098F\u0997\u09CD\u09B0\u09CB\u09B2\u09BF\u0982\u0995"
+  "appName": "এগ্রোলিংক",
+  "tagline": "কৃষক ও ক্রেতার সংযোগ",
+  "settings": "সেটিংস",
+  "language": "ভাষা",
+  "theme": "থিম",
+  "darkMode": "ডার্ক মোড",
+  "english": "English",
+  "bangla": "বাংলা"
 }

@@ -11,4 +11,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get appName => 'AgroLink';
+
+  @override
+  String get tagline => 'Connecting farmers and buyers';
+
+  @override
+  String get settings => 'Settings';
+
+  @override
+  String get language => 'Language';
+
+  @override
+  String get theme => 'Theme';
+
+  @override
+  String get darkMode => 'Dark mode';
+
+  @override
+  String get english => 'English';
+
+  @override
+  String get bangla => 'বাংলা';
 }
