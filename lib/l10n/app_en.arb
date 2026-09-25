@@ -14,5 +14,42 @@
   "showPassword": "Show password",
   "hidePassword": "Hide password",
   "available": "Available",
-  "outOfStock": "Out of stock"
+  "outOfStock": "Out of stock",
+  "login": "Log in",
+  "logout": "Log out",
+  "createAccount": "Create account",
+  "welcomeBack": "Welcome back",
+  "loginSubtitle": "Log in to continue",
+  "registerSubtitle": "Join AgroLink as a farmer or buyer",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm password",
+  "fullName": "Full name",
+  "phone": "Phone number",
+  "iAmA": "I am a",
+  "farmer": "Farmer",
+  "buyer": "Buyer",
+  "roleLockedNote": "Your role cannot be changed after registration.",
+  "noAccountYet": "Don't have an account?",
+  "haveAccount": "Already have an account?",
+  "register": "Register",
+  "forgotPassword": "Forgot password?",
+  "forgotPasswordHint": "Enter your email and we'll send a reset link.",
+  "sendResetLink": "Send reset link",
+  "forgotPasswordDemo": "Demo only: no email is sent in this version.",
+  "registrationDemoNote": "Form is valid. Saving accounts is added in Phase 2.",
+  "fieldRequired": "This field is required",
+  "invalidEmail": "Enter a valid email address",
+  "invalidPhone": "Enter a valid phone number",
+  "passwordTooShort": "Password must be at least 6 characters",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "roleRequired": "Please select a role",
+  "invalidCredentials": "Invalid email or password",
+  "welcomeUser": "Welcome, {name}!",
+  "@welcomeUser": {
+    "placeholders": {
+      "name": { "type": "String" }
+    }
+  },
+  "homeComingSoon": "The home screen is added in the next step."
 }
