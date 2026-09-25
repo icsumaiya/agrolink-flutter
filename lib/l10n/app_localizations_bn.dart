@@ -154,4 +154,133 @@ class AppLocalizationsBn extends AppLocalizations {
 
   @override
   String get homeComingSoon => 'হোম স্ক্রিন পরের ধাপে যোগ হবে।';
+
+  @override
+  String get featuredProducts => 'বাছাইকৃত পণ্য';
+
+  @override
+  String get categories => 'ক্যাটাগরি';
+
+  @override
+  String get recentlyViewed => 'সম্প্রতি দেখা';
+
+  @override
+  String get allProducts => 'সব পণ্য';
+
+  @override
+  String get searchProducts => 'পণ্য খুঁজুন';
+
+  @override
+  String get noProductsFound => 'কোনো পণ্য পাওয়া যায়নি';
+
+  @override
+  String get noProductsHint => 'ভিন্ন কিছু খুঁজুন বা ক্যাটাগরি বদলান';
+
+  @override
+  String get productDetails => 'পণ্যের বিবরণ';
+
+  @override
+  String get farmerInfo => 'কৃষক';
+
+  @override
+  String get callFarmer => 'কৃষককে কল করুন';
+
+  @override
+  String get sendOrderRequest => 'অর্ডার রিকোয়েস্ট পাঠান';
+
+  @override
+  String get reviews => 'রিভিউ';
+
+  @override
+  String get noReviewsYet => 'এখনো কোনো রিভিউ নেই';
+
+  @override
+  String get sold => 'বিক্রি হয়েছে';
+
+  @override
+  String get description => 'বিবরণ';
+
+  @override
+  String get location => 'অবস্থান';
+
+  @override
+  String get addedToWishlist => 'উইশলিস্টে যোগ হয়েছে';
+
+  @override
+  String get removedFromWishlist => 'উইশলিস্ট থেকে সরানো হয়েছে';
+
+  @override
+  String get comingSoonFeature => 'এই সুবিধা Phase 2-এ যোগ হবে।';
+
+  @override
+  String get categoryVegetables => 'সবজি';
+
+  @override
+  String get categoryFruits => 'ফল';
+
+  @override
+  String get categoryRice => 'চাল';
+
+  @override
+  String get categoryFish => 'মাছ';
+
+  @override
+  String get categoryMeat => 'মাংস';
+
+  @override
+  String get categoryGrains => 'শস্য';
+
+  @override
+  String get categorySpices => 'মসলা';
+
+  @override
+  String get categoryOther => 'অন্যান্য';
+
+  @override
+  String get dashboard => 'ড্যাশবোর্ড';
+
+  @override
+  String get totalProducts => 'মোট পণ্য';
+
+  @override
+  String get activeProducts => 'সক্রিয় পণ্য';
+
+  @override
+  String get pendingOrders => 'অপেক্ষমাণ অর্ডার';
+
+  @override
+  String get completedOrders => 'সম্পন্ন অর্ডার';
+
+  @override
+  String get topSellingProducts => 'সর্বাধিক বিক্রিত পণ্য';
+
+  @override
+  String get unitsSold => 'ইউনিট বিক্রি';
+
+  @override
+  String get inStock => 'স্টকে আছে';
+
+  @override
+  String get myProducts => 'আমার পণ্য';
+
+  @override
+  String get noProductsYet => 'এখনো কোনো পণ্য নেই';
+
+  @override
+  String get noProductsYetHint => 'আপনার যোগ করা পণ্য এখানে দেখাবে।';
+
+  @override
+  String get addProduct => 'পণ্য যোগ করুন';
+
+  @override
+  String get profile => 'প্রোফাইল';
+
+  @override
+  String get editProfile => 'প্রোফাইল সম্পাদনা';
+
+  @override
+  String get about => 'বিবরণ';
+
+  @override
+  String get memberSince => 'সদস্য হয়েছেন';
 }

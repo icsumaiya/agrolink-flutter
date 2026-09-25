@@ -379,6 +379,264 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'The home screen is added in the next step.'**
   String get homeComingSoon;
+
+  /// No description provided for @featuredProducts.
+  ///
+  /// In en, this message translates to:
+  /// **'Featured products'**
+  String get featuredProducts;
+
+  /// No description provided for @categories.
+  ///
+  /// In en, this message translates to:
+  /// **'Categories'**
+  String get categories;
+
+  /// No description provided for @recentlyViewed.
+  ///
+  /// In en, this message translates to:
+  /// **'Recently viewed'**
+  String get recentlyViewed;
+
+  /// No description provided for @allProducts.
+  ///
+  /// In en, this message translates to:
+  /// **'All products'**
+  String get allProducts;
+
+  /// No description provided for @searchProducts.
+  ///
+  /// In en, this message translates to:
+  /// **'Search products'**
+  String get searchProducts;
+
+  /// No description provided for @noProductsFound.
+  ///
+  /// In en, this message translates to:
+  /// **'No products found'**
+  String get noProductsFound;
+
+  /// No description provided for @noProductsHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Try a different search or category'**
+  String get noProductsHint;
+
+  /// No description provided for @productDetails.
+  ///
+  /// In en, this message translates to:
+  /// **'Product details'**
+  String get productDetails;
+
+  /// No description provided for @farmerInfo.
+  ///
+  /// In en, this message translates to:
+  /// **'Farmer'**
+  String get farmerInfo;
+
+  /// No description provided for @callFarmer.
+  ///
+  /// In en, this message translates to:
+  /// **'Call Farmer'**
+  String get callFarmer;
+
+  /// No description provided for @sendOrderRequest.
+  ///
+  /// In en, this message translates to:
+  /// **'Send Order Request'**
+  String get sendOrderRequest;
+
+  /// No description provided for @reviews.
+  ///
+  /// In en, this message translates to:
+  /// **'Reviews'**
+  String get reviews;
+
+  /// No description provided for @noReviewsYet.
+  ///
+  /// In en, this message translates to:
+  /// **'No reviews yet'**
+  String get noReviewsYet;
+
+  /// No description provided for @sold.
+  ///
+  /// In en, this message translates to:
+  /// **'sold'**
+  String get sold;
+
+  /// No description provided for @description.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get description;
+
+  /// No description provided for @location.
+  ///
+  /// In en, this message translates to:
+  /// **'Location'**
+  String get location;
+
+  /// No description provided for @addedToWishlist.
+  ///
+  /// In en, this message translates to:
+  /// **'Added to wishlist'**
+  String get addedToWishlist;
+
+  /// No description provided for @removedFromWishlist.
+  ///
+  /// In en, this message translates to:
+  /// **'Removed from wishlist'**
+  String get removedFromWishlist;
+
+  /// No description provided for @comingSoonFeature.
+  ///
+  /// In en, this message translates to:
+  /// **'This action is added in Phase 2.'**
+  String get comingSoonFeature;
+
+  /// No description provided for @categoryVegetables.
+  ///
+  /// In en, this message translates to:
+  /// **'Vegetables'**
+  String get categoryVegetables;
+
+  /// No description provided for @categoryFruits.
+  ///
+  /// In en, this message translates to:
+  /// **'Fruits'**
+  String get categoryFruits;
+
+  /// No description provided for @categoryRice.
+  ///
+  /// In en, this message translates to:
+  /// **'Rice'**
+  String get categoryRice;
+
+  /// No description provided for @categoryFish.
+  ///
+  /// In en, this message translates to:
+  /// **'Fish'**
+  String get categoryFish;
+
+  /// No description provided for @categoryMeat.
+  ///
+  /// In en, this message translates to:
+  /// **'Meat'**
+  String get categoryMeat;
+
+  /// No description provided for @categoryGrains.
+  ///
+  /// In en, this message translates to:
+  /// **'Grains'**
+  String get categoryGrains;
+
+  /// No description provided for @categorySpices.
+  ///
+  /// In en, this message translates to:
+  /// **'Spices'**
+  String get categorySpices;
+
+  /// No description provided for @categoryOther.
+  ///
+  /// In en, this message translates to:
+  /// **'Other'**
+  String get categoryOther;
+
+  /// No description provided for @dashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Dashboard'**
+  String get dashboard;
+
+  /// No description provided for @totalProducts.
+  ///
+  /// In en, this message translates to:
+  /// **'Total products'**
+  String get totalProducts;
+
+  /// No description provided for @activeProducts.
+  ///
+  /// In en, this message translates to:
+  /// **'Active products'**
+  String get activeProducts;
+
+  /// No description provided for @pendingOrders.
+  ///
+  /// In en, this message translates to:
+  /// **'Pending orders'**
+  String get pendingOrders;
+
+  /// No description provided for @completedOrders.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed orders'**
+  String get completedOrders;
+
+  /// No description provided for @topSellingProducts.
+  ///
+  /// In en, this message translates to:
+  /// **'Top selling products'**
+  String get topSellingProducts;
+
+  /// No description provided for @unitsSold.
+  ///
+  /// In en, this message translates to:
+  /// **'units sold'**
+  String get unitsSold;
+
+  /// No description provided for @inStock.
+  ///
+  /// In en, this message translates to:
+  /// **'in stock'**
+  String get inStock;
+
+  /// No description provided for @myProducts.
+  ///
+  /// In en, this message translates to:
+  /// **'My Products'**
+  String get myProducts;
+
+  /// No description provided for @noProductsYet.
+  ///
+  /// In en, this message translates to:
+  /// **'No products yet'**
+  String get noProductsYet;
+
+  /// No description provided for @noProductsYetHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Products you add will appear here.'**
+  String get noProductsYetHint;
+
+  /// No description provided for @addProduct.
+  ///
+  /// In en, this message translates to:
+  /// **'Add Product'**
+  String get addProduct;
+
+  /// No description provided for @profile.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get profile;
+
+  /// No description provided for @editProfile.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Profile'**
+  String get editProfile;
+
+  /// No description provided for @about.
+  ///
+  /// In en, this message translates to:
+  /// **'About'**
+  String get about;
+
+  /// No description provided for @memberSince.
+  ///
+  /// In en, this message translates to:
+  /// **'Member since'**
+  String get memberSince;
 }
 
 class _AppLocalizationsDelegate

@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import '../../l10n/app_localizations.dart';
 import '../common/coming_soon_screen.dart';
 import '../common/settings_screen.dart';
+import 'farmer_dashboard_screen.dart';
+import 'my_products_screen.dart';
 
 /// Farmer-only bottom navigation. Section 2: a farmer never sees buyer tabs.
 class FarmerShell extends StatefulWidget {
@@ -20,8 +22,8 @@ class _FarmerShellState extends State<FarmerShell> {
     final l10n = AppLocalizations.of(context);
 
     final pages = [
-      const ComingSoonScreen(label: 'Dashboard', icon: Icons.dashboard_outlined), // Step 9
-      const ComingSoonScreen(label: 'My Products', icon: Icons.inventory_2_outlined), // Step 9
+      const FarmerDashboardScreen(), // Step 9
+      const MyProductsScreen(), // Step 9
       const ComingSoonScreen(label: 'Incoming Orders', icon: Icons.list_alt_outlined), // Step 9
       const SettingsScreen(),
     ];

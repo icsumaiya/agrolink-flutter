@@ -155,4 +155,133 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get homeComingSoon => 'The home screen is added in the next step.';
+
+  @override
+  String get featuredProducts => 'Featured products';
+
+  @override
+  String get categories => 'Categories';
+
+  @override
+  String get recentlyViewed => 'Recently viewed';
+
+  @override
+  String get allProducts => 'All products';
+
+  @override
+  String get searchProducts => 'Search products';
+
+  @override
+  String get noProductsFound => 'No products found';
+
+  @override
+  String get noProductsHint => 'Try a different search or category';
+
+  @override
+  String get productDetails => 'Product details';
+
+  @override
+  String get farmerInfo => 'Farmer';
+
+  @override
+  String get callFarmer => 'Call Farmer';
+
+  @override
+  String get sendOrderRequest => 'Send Order Request';
+
+  @override
+  String get reviews => 'Reviews';
+
+  @override
+  String get noReviewsYet => 'No reviews yet';
+
+  @override
+  String get sold => 'sold';
+
+  @override
+  String get description => 'Description';
+
+  @override
+  String get location => 'Location';
+
+  @override
+  String get addedToWishlist => 'Added to wishlist';
+
+  @override
+  String get removedFromWishlist => 'Removed from wishlist';
+
+  @override
+  String get comingSoonFeature => 'This action is added in Phase 2.';
+
+  @override
+  String get categoryVegetables => 'Vegetables';
+
+  @override
+  String get categoryFruits => 'Fruits';
+
+  @override
+  String get categoryRice => 'Rice';
+
+  @override
+  String get categoryFish => 'Fish';
+
+  @override
+  String get categoryMeat => 'Meat';
+
+  @override
+  String get categoryGrains => 'Grains';
+
+  @override
+  String get categorySpices => 'Spices';
+
+  @override
+  String get categoryOther => 'Other';
+
+  @override
+  String get dashboard => 'Dashboard';
+
+  @override
+  String get totalProducts => 'Total products';
+
+  @override
+  String get activeProducts => 'Active products';
+
+  @override
+  String get pendingOrders => 'Pending orders';
+
+  @override
+  String get completedOrders => 'Completed orders';
+
+  @override
+  String get topSellingProducts => 'Top selling products';
+
+  @override
+  String get unitsSold => 'units sold';
+
+  @override
+  String get inStock => 'in stock';
+
+  @override
+  String get myProducts => 'My Products';
+
+  @override
+  String get noProductsYet => 'No products yet';
+
+  @override
+  String get noProductsYetHint => 'Products you add will appear here.';
+
+  @override
+  String get addProduct => 'Add Product';
+
+  @override
+  String get profile => 'Profile';
+
+  @override
+  String get editProfile => 'Edit Profile';
+
+  @override
+  String get about => 'About';
+
+  @override
+  String get memberSince => 'Member since';
 }
