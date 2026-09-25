@@ -71,7 +71,7 @@ class BuyerHomeScreen extends StatelessWidget {
                 child: ListView.separated(
                   scrollDirection: Axis.horizontal,
                   itemCount: ProductCategory.values.length,
-                  separatorBuilder: (_, __) =>
+                  separatorBuilder: (_, _) =>
                       const SizedBox(width: AppSpacing.sm),
                   itemBuilder: (context, i) {
                     final c = ProductCategory.values[i];

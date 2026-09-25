@@ -57,7 +57,7 @@ class FarmerDashboardScreen extends StatelessWidget {
           child: ListView(
             padding: const EdgeInsets.all(AppSpacing.md),
             children: [
-              Text('${farmer.name}', style: text.headlineMedium),
+              Text(farmer.name, style: text.headlineMedium),
               const SizedBox(height: AppSpacing.lg),
               GridView.count(
                 shrinkWrap: true,
