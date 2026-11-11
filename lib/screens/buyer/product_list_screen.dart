@@ -132,7 +132,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
                             location: p.location,
                             isAvailable: p.isAvailable,
                             rating: p.averageRating,
-                            imagePath: p.imagePath,
+                            imagePaths: p.imagePaths,
                             onTap: () => Navigator.of(context).push(
                               MaterialPageRoute(
                                 builder: (_) =>

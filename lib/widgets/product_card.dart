@@ -18,7 +18,7 @@ class ProductCard extends StatelessWidget {
     required this.location,
     required this.isAvailable,
     this.rating = 0,
-    this.imagePath,
+    this.imagePaths = const [],
     this.onTap,
     this.trailing,
   });
@@ -29,7 +29,7 @@ class ProductCard extends StatelessWidget {
   final String location;
   final bool isAvailable;
   final double rating;
-  final String? imagePath;
+  final List<String> imagePaths;
   final VoidCallback? onTap;
   final Widget? trailing; // e.g. wishlist heart button
 
@@ -52,7 +52,11 @@ class ProductCard extends StatelessWidget {
               children: [
                 AspectRatio(
                   aspectRatio: 4 / 3,
-                  child: SizedBox.expand(child: SafeImage(path: imagePath)),
+                  child: SizedBox.expand(
+                    child: SafeImage(
+                      path: imagePaths.isNotEmpty ? imagePaths.first : null,
+                    ),
+                  ),
                 ),
                 if (trailing != null)
                   Positioned(

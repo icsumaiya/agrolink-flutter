@@ -141,7 +141,7 @@ class BuyerHomeScreen extends StatelessWidget {
                     location: p.location,
                     isAvailable: p.isAvailable,
                     rating: p.averageRating,
-                    imagePath: p.imagePath,
+                    imagePaths: p.imagePaths,
                     onTap: () => Navigator.of(context).push(
                       MaterialPageRoute(
                         builder: (_) => ProductDetailsScreen(product: p),

@@ -14,7 +14,7 @@ class Product {
     required this.longitude,
     required this.description,
     required this.createdAt,
-    this.imagePath,
+    this.imagePaths = const [],
     this.isActive = true,
     this.averageRating = 0,
     this.reviewCount = 0,
@@ -33,7 +33,7 @@ class Product {
   final double longitude;
   final String description;
   final DateTime createdAt;
-  final String? imagePath; // local file path or null -> placeholder
+  final List<String> imagePaths;
 
   /// Soft-delete flag: false hides the product from buyers but keeps it
   /// referenced by past orders (order history + analytics keep working).
@@ -58,7 +58,7 @@ class Product {
     double? latitude,
     double? longitude,
     String? description,
-    String? imagePath,
+    List<String>? imagePaths,
     bool? isActive,
     double? averageRating,
     int? reviewCount,
@@ -77,7 +77,7 @@ class Product {
         latitude: latitude ?? this.latitude,
         longitude: longitude ?? this.longitude,
         description: description ?? this.description,
-        imagePath: imagePath ?? this.imagePath,
+        imagePaths: imagePaths ?? this.imagePaths,
         isActive: isActive ?? this.isActive,
         averageRating: averageRating ?? this.averageRating,
         reviewCount: reviewCount ?? this.reviewCount,
@@ -97,7 +97,7 @@ class Product {
         'longitude': longitude,
         'description': description,
         'createdAt': createdAt.toIso8601String(),
-        'imagePath': imagePath,
+        'imagePaths': imagePaths,
         'isActive': isActive,
       };
 
@@ -118,7 +118,7 @@ class Product {
         longitude: (map['longitude'] as num).toDouble(),
         description: map['description'] as String,
         createdAt: DateTime.parse(map['createdAt'] as String),
-        imagePath: map['imagePath'] as String?,
+        imagePaths: (map['imagePaths'] as List?)?.cast<String>() ?? const [],
         isActive: (map['isActive'] as bool?) ?? true,
       );
 }

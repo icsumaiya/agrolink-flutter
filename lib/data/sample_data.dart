@@ -75,6 +75,11 @@ class SampleData {
       latitude: 24.8949,
       longitude: 91.8687,
       description: 'Ripe, red tomatoes picked this morning.',
+      imagePaths: const [
+        'assets/images/tomato_1.jpg',
+        'assets/images/tomato_2.jpg',
+        'assets/images/tomato_3.jpg',
+      ],
       createdAt: DateTime(2026, 7, 1),
     ),
     Product(
@@ -89,6 +94,9 @@ class SampleData {
       latitude: 24.9000,
       longitude: 91.8600,
       description: 'Spicy green chili, freshly harvested.',
+      imagePaths: const [
+        'assets/images/green_chili.jpg',
+      ],
       createdAt: DateTime(2026, 7, 5),
     ),
     Product(
@@ -103,6 +111,9 @@ class SampleData {
       latitude: 24.8850,
       longitude: 91.8750,
       description: 'Sweet, juicy pineapples from our hill farm.',
+      imagePaths: const [
+        'assets/images/pineapple.jpg',
+      ],
       createdAt: DateTime(2026, 7, 10),
     ),
     Product(
@@ -117,6 +128,9 @@ class SampleData {
       latitude: 24.8465,
       longitude: 89.3776,
       description: 'Clean, polished miniket rice. Good for daily meals.',
+      imagePaths: const [
+        'assets/images/rice.jpg',
+      ],
       createdAt: DateTime(2026, 7, 2),
     ),
     Product(
@@ -131,6 +145,9 @@ class SampleData {
       latitude: 24.8500,
       longitude: 89.3700,
       description: 'Fresh river rui fish. Currently sold out.',
+      imagePaths: const [
+        'assets/images/rui_fish.jpg',
+      ],
       createdAt: DateTime(2026, 7, 8),
     ),
     Product(
@@ -145,6 +162,9 @@ class SampleData {
       latitude: 24.8400,
       longitude: 89.3850,
       description: 'Split red lentils, cleaned and sun-dried.',
+      imagePaths: const [
+        'assets/images/masur_dal.jpg',
+      ],
       createdAt: DateTime(2026, 7, 12),
     ),
     Product(
@@ -159,6 +179,9 @@ class SampleData {
       latitude: 24.8550,
       longitude: 89.3650,
       description: 'Home-ground turmeric, no added color.',
+      imagePaths: const [
+        'assets/images/turmeric_powder.jpg',
+      ],
       createdAt: DateTime(2026, 7, 15),
     ),
     Product(
@@ -173,6 +196,9 @@ class SampleData {
       latitude: 24.8420,
       longitude: 89.3900,
       description: 'Sweet mangoes with very little fiber.',
+      imagePaths: const [
+        'assets/images/himsagar_mango.jpg',
+      ],
       createdAt: DateTime(2026, 7, 18),
     ),
   ];
